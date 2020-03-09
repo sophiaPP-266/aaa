@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+
+    <link rel="stylesheet" src="componentes/loader.css">
+  <!-- materialize.css !-->
+    <link type="text/css" rel="stylesheet" href="lib/css/materialize.min.css"  media="screen,projection"/>
+
+  <!-- javascript materialize !-->
+    <script type="text/javascript" src="lib/js/materialize.min.js"></script>
+  <!-- jquery !-->
+    <script src="lib/jquery-3.4.1.min.js"></script>
+    <script src="components/calcular.js"></script>
+
+  <!-- CSS !-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- FONTS GOOGLE !-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col s12 m12 black white-text">
+        <h1 class="center" style="font-family: 'Montserrat', sans-serif;">C A L C</h1>
+      </div>
+    </div>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12 m12 12">
+
+            <label for="">Primeiro valor</label>
+            <input type="number" name="um" id="n1">
+
+          </div>
+          <div class="input-field col s12 m12 12">
+
+            <label for="">Segundo valor</label>
+            <input type="number" name="dois" id="n2" class="validate">
+
+          </div>
+        </div>
+        <div class="row left-align">
+            <div class="col s5">
+
+                <button class="btn-large waves-effect black waves-green" type="button" name="calcular" id="calc">
+                    CALCULAR
+                </button>
+
+            </div>
+        </div>
+        <div class="row righ-align">
+          <div class="input-field col s12 m12 12">
+
+              <input type="number" name="resultado" id="result" placeholder="Resultado">
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
